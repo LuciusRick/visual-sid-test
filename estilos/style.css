@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Sriracha&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(0deg, #b3001bff 20%, #262626ff, #255c99ff, #7ea3ccff, #ccad8fff);
+    background-repeat: no-repeat;
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    
+}
+
+#logoheader{
+    padding: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.div-list{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: bolder;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: white;
+
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+.nav-link img{
+    width: 20px;
+}
+
+
+

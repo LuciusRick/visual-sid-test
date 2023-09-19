@@ -1,0 +1,229 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700&family=Satisfy&family=Sriracha&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+html, body{
+    
+    background-image:linear-gradient(0deg, #b3001bff, #262626ff, #255c99ff, #7ea3ccff, #ccad8fff);
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    text-shadow: 1px 1px 2px black;
+}
+
+#logol{
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/*.div-list{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: bolder;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: white;
+
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    transform: scale(1px);
+}
+
+.nav-link img{
+    width: 25px;
+    
+}*/
+
+main{
+    width: 100%;
+    height: auto;
+}
+
+.back-img{
+    padding-top: 100px;
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#logomaster{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 300px;
+    
+    
+}
+
+img{
+    text-shadow: 2px 2px 3px black;
+}
+
+#logodivmaster{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+#masteer{
+    transition: 2.5s;
+    
+}
+
+
+.back-img2{
+    width: 100%;
+    height: 300px;
+    /*background: url(../imagens/chapascor.png) no-repeat center center;*/
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.back-img3{
+    width: 100%;
+    height: 500px;
+    background: url(../imagens/fachada2.png) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.back-img4{
+    width: 100%;
+    height: 500px;
+    background: url(../imagens/painel-lona.png) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.title{
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 2px black;
+}
+
+h2{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+    font-size: 2.3em;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+}
+
+.paragrafo{
+    margin: 50px;
+    padding: 20px;
+    display: block;
+    text-indent: 20px;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+#iform{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+    padding: 15px;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.sec-form{
+    padding: 10px;
+    margin: 10px;
+    
+    
+}
+
+.sec-form h1{
+    font-family:'Bebas Neue', sans-serif;
+    font-size: 2em;
+    padding: 10px;
+}
+
+label{
+    font-size: 1.5em;
+    font-family:'Bebas Neue', sans-serif;
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.botao{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 7px;
+}
+
+.botao:hover{
+    background-color: gray;
+}
+
+footer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(55, 28, 155);
+}
+
+footer > section > a {
+    color: white;
+}
+
+.foot-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}

@@ -1,0 +1,66 @@
+@media screen and (max-width:500px) {
+   
+    nav.menu-lateral{
+        width: 40px;
+        height: 40px;
+        background-color: rgb(29, 29, 29);
+    }
+
+    nav.menu-lateral:hover{
+        width: 250px;
+    }
+
+    .btn-span{
+        padding: 5px;
+        
+    }
+    
+    .btn-span > i {
+        color: white;
+        font-size: 30px;
+        
+    }
+
+    #masteer{
+        height: 550px;
+    }
+
+
+    h1{
+        font-size: 1em;
+        text-align: center;
+        animation-name: title;
+        animation-duration: 5s;
+        animation-delay: 1.5s;
+    }
+
+    .paragrafo{
+        margin: auto;
+        width: 400px;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .item-menu{
+        padding: 5px;
+    }
+
+    footer{
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(55, 28, 155);
+    }
+    
+    footer > section > a {
+        color: white;
+    }
+    
+    .foot-sec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+}
